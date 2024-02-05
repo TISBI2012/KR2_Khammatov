@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="af84b4bb9c7c44f0acaf8da982637f75" Name="Diagram1">
+        <EntityTypeShape EntityType="KR2_KhammatovModel.Customer" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_KhammatovModel.Departament" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_KhammatovModel.Employee" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_KhammatovModel.Loign" Width="1.5" PointX="5.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_KhammatovModel.Request" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_KhammatovModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_KhammatovModel.Tasks" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="KR2_KhammatovModel.FK_Request_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="KR2_KhammatovModel.FK_Employee_Departament" ManuallyRouted="false" />
+        <AssociationConnector Association="KR2_KhammatovModel.FK_Request_Departament" ManuallyRouted="false" />
+        <AssociationConnector Association="KR2_KhammatovModel.FK_Tasks_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="KR2_KhammatovModel.FK_Tasks_Request" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
